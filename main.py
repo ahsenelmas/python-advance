@@ -1,6 +1,5 @@
-def main():
-    print("Hello from python-advance!")
-
+from utils.file_opener import FileOpener
 
 if __name__ == "__main__":
-    main()
+    with FileOpener("example.txt", "w") as f:
+        f.write("Hello from advanced FileOpener project!")
