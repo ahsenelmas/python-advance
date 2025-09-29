@@ -14,6 +14,3 @@ class FileOpener:
         if self.file:
             self.file.close()
 
-# Usage
-with FileOpener("test.txt", "w") as f:
-    f.write("Hello from Python custom context manager!")
