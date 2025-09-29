@@ -9,4 +9,3 @@ class EmailLayout:
     def __exit__(self, exc_type, exc_value, traceback):
         print("\nBest Regards,")
         print(self.sender_name)
-
